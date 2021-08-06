@@ -1,0 +1,26 @@
+{
+  "name": "react-scripts2",
+  "version": "0.0.1",
+  "description": "Extends react-scripts to add build.dev (in development mode)",
+  "author": {
+    "name": "Tom Chadaravicius"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "files": [
+    "bin/reacts-cripts2.js",
+    "scripts/devbuild.js"
+  ],
+  "bin": {
+    "react-scripts2": "./bin/react-scripts2.js"
+  },
+  "dependencies": {
+    "react-scripts": "^3.4.1"
+  },
+  "peerDependencies": {
+    "react": ">= 15",
+    "react-scripts": ">=3.4.1"
+  }
+}
